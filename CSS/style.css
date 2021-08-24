@@ -1,0 +1,43 @@
+@import url(reset.css);
+
+body{
+width: 800px;
+height: 894px;
+margin-left: 20px;
+font-size: 29px;
+font-family: sans-serif;
+}
+
+.content{
+  border-radius: 20px;
+  border: 2px solid #e8e8e8;
+  width: 759px;
+  height: 148px;
+  margin-top: 20px;
+  padding-bottom: 10px;
+}
+
+.content:hover {
+  border: 5px solid #d4d9ef;
+  color: #8a8e91;
+  background-color: #f8f8f8;
+  cursor: pointer;
+}
+
+.disabled_btn {
+  background-color: #f8f8f8;
+  color: #8a8e91;
+
+}
+
+img{
+  float: left;
+  width: 45px;
+  height: 45px;
+  padding:55px 55px ;
+}
+
+h2{
+  font-weight: bold;
+  font-size: 37px;
+}
